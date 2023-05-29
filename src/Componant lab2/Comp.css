@@ -1,7 +1,7 @@
 body{
     background-color: rgb(201, 222, 215);
 }
-.div {
+/* .div {
     background-color: rgb(121, 117, 110);
     width: 50%;
     height: 70px;
@@ -29,5 +29,68 @@ body{
     background-color: rgb(11, 11, 12);
     cursor: pointer;
     color: aliceblue;
-}
+} */
+
+/* ============================================================= */
+.product {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+  }
   
+  .card {
+    background-color: rgb(164, 137, 165);
+    width: 40%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 2em black;
+  }
+  
+  .image {
+    width: 100%;
+    background-position:center;
+  }
+
+/* ================================================================ */
+.form{
+    background-color: rgb(101, 101, 119);
+    width: 40%;
+    height: 60%;
+    margin: 70px;
+    text-align: center;
+    align-items: center;
+
+}
+.div2{
+    color: rgb(65, 48, 48);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.label{
+    border-radius: 40%;
+    margin-bottom: 10px;
+  padding: 0 70px;
+}
+.submit{
+    background-color: rgb(178, 200, 200);
+    color: rgb(51, 57, 57);
+    width: 130px;
+    height: 40px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.submit:hover{
+    opacity: 0.5;
+    background-color: bisque;
+    color: black;
+}
+/* ======================================== */
+.div_api{
+    background-color: rgb(158, 142, 142);
+    border: 2px solid rgb(255, 255, 255);
+    height: 40px;
+    text-align:justify;
+    justify-content:center;
+    color: brown;
+    width:1230px;
+    padding: 50px;
+}
