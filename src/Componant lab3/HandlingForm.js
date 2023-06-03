@@ -51,7 +51,7 @@ class HandlingForm extends Component {
       return (
        
      <div>
-        (signupStatus ? (<HandlingFormlog/> ) : (
+        {signupStatus ? (<HandlingFormlog/> ) : (
         <form className='form' onSubmit={this.handleFormSubmit}>
             <h1>Please Submit this form</h1>
             <div className='div2'>
@@ -68,13 +68,10 @@ class HandlingForm extends Component {
                 <label className='label'>E-Mail:</label>
                 <input type="text" required  value={email} onChange={this.handleemailChange} />
             </div>
-            {/* <div className='div2'>
-                <label className='label'>Gender:</label>
-                <input type="text" required  value={gender} onChange={this.handlegenderChange} />
-            </div> */}
+           
             <button className='submit'  type='submit'>Submit</button>
         </form>
-        ))
+        )}
         </div>
 )
        
